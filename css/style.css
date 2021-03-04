@@ -53,8 +53,8 @@ header{
     text-align: center;
 }
 
-.nav_item a:hover, a:focus{
-   color: white;
+.nav_item a:hover{
+   color: grey;
 }
 
 p {
@@ -106,7 +106,7 @@ h4 {
 /* link*/
 
 a {
-    color: indigo;
+    color: #222b13;
 }
 
 a:hover {
@@ -126,7 +126,7 @@ a:hover {
     /*    top:1 right:2 bottom:1 left:2*/
     /*    the size of button*/
     padding: .6rem 1rem;
-    background-color: indigo;
+    background-color: grey;
     color: white;
     border: none;
     margin-top: 30px;
@@ -145,16 +145,16 @@ a:hover {
     line-height: 2rem;
     border-radius: 3rem;
     padding: 1rem 2rem;
-    color: indigo;
+    color: grey;
     background-color: rgba(75, 0, 130, 0.4);
-    border: 1px indigo solid;
+    border: 1px grey solid;
     transition: all 0.5s;
 }
 
 .btn-outline-primary:hover {
     color: white;
-    background-color: indigo;
-    border-color: indigo;
+    background-color: grey;
+    border-color: grey;
 }
 
 /*self-defined class names*/
@@ -183,6 +183,7 @@ a:hover {
 
 #portfolio-text{
     float: center;
+    margin: 30px;
 }
 
 .me {
@@ -315,13 +316,15 @@ footer{
     text-align: center;
 }
 
+
+
 /*the X close icon*/
 .portfolio-modal .modal-header .close {
     font-size: 3rem;
     /* padding direction:   top:0 right:1rem bottom:0 left:0*/
     padding: 0 2rem 0 0;
     /*    font-weight: 200;*/
-    color: indigo;
+    color: #222b13;
 }
 
 .portfolio-modal .modal-header {
@@ -337,5 +340,5 @@ footer{
 .portfolio-modal a.next,
 .portfolio-modal a.prev,
 .portfolio-modal a.back {
-    color: indigo;
+    color: #222b13;
 }
