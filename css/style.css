@@ -166,24 +166,33 @@ a:hover {
 }
 
 #box{
-    height: 375px;
+    height: 400px;
+    min-width: 400px;
     margin: 20px;
-    background-color: #f8f8f8;
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+#pi{
+    margin: 20px;
+    max-width: 320px;
+}
+
+#proj{
+    margin: 10px;
 }
 
 #box:hover{
-    background-color: #f8f8f8;
+    background-color: #f8f8f842;
 }
 
 #portfolio-image{
     margin: 20px;
     max-width: 500px;
-    float: left;
 }
 
 #portfolio-text{
-    float: center;
-    margin: 30px;
+    margin: 10px;
 }
 
 .me {
