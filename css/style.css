@@ -106,7 +106,15 @@ h4 {
 /* link*/
 
 a {
-    color: #222b13;
+    color: rgb(42, 42, 172);
+}
+
+#CHI{
+    color: rgb(42, 42, 172);
+}
+
+.currentNav{
+    text-emphasis: bold;
 }
 
 a:hover {
