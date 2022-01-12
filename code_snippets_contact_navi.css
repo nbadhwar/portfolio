@@ -1,0 +1,65 @@
+
+footer {
+    margin-top: 3rem;
+    padding: 3rem;
+    background-color: lightcyan;
+}
+
+/*social media icon size*/
+footer .social {
+    font-size: .8rem;
+}
+
+/*the space above and below the contact info */
+footer .info {
+    margin-top: 5rem;
+    margin-bottom: 5rem
+}
+
+
+
+
+/*navigation*/
+/*navigation background*/
+.navbackground {
+    background-color: white;
+}
+
+/*navigation button in the mobile view*/
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    /*    disable the button border*/
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+/*navigation brand text*/
+.navbar-light .navbar-brand {
+    color: black;
+    padding-top: 0;
+}
+
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: indigo;
+}
+
+/*navigation menus*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    font-size: 1.1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: indigo;
+}
+
+
+/* The active link, when scroll to the section, the menu items will turn to a different color */
+
+.navbar-light a.active {
+    color: indigo !important;
+    /*    background-color: #55555a !important;*/
+}
+
